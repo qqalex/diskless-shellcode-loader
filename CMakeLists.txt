@@ -19,7 +19,6 @@ add_executable(beacon
   include/kb.c
   include/nt.c
   include/http.c
-  # include/crypt.c
 )
 target_include_directories(beacon PUBLIC include)
 
